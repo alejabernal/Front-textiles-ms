@@ -1,0 +1,77 @@
+
+
+
+     <!--  <nav class="navbar navbar-expand-md navbar-white fixed-top bg-white">
+        <a class="navbar-brand" href="#">Tienda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/products/store/product-list" >Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/products/store/shopping-list" >Carrito</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> 
+        </div>
+      </nav> -->
+
+
+
+     <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                 <a class="nav-link" routerLink="/products">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+               <a  class="nav-link" routerLink="/products/store/product-list">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/products/store/shopping-list">Carrito</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" routerLink="/products/store/sales">Ventas</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Dashboard</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary">Share</button>
+                <button class="btn btn-sm btn-outline-secondary">Export</button>
+              </div>
+              <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                This week
+              </button>
+            </div>
+          </div>
+
+       
+
+ 
+
+<div class="my-4 w-100"  width="900" height="380">
+          
+           <router-outlet></router-outlet>
+
+        </div>
+         
+
+
